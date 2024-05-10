@@ -1,0 +1,206 @@
+.navbar {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 100 0 0;
+  box-sizing: border-box;
+  padding: 0 30px 0 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon_menu {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.icon_menu:hover {
+  cursor: pointer;
+}
+
+.icon_menu img {
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  background-color: #047de5;
+  align-items: center;
+  padding: 0 30px 0 30px;
+
+}
+
+.menu .menu_list { 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.menu .menu_list li:hover {
+  background-color: #34a0ff;
+}
+
+.menu .menu_list li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 30px;
+
+
+}
+
+.menu .menu_list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_logo {
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  min-width: 140px;
+}
+
+.header_logo_mobile {
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  display: none;
+
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+.header_info {
+  width: 25%;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header_info p {
+  width: 100%;
+  font-size: 17px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.header_mode {
+  width: 20%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_mode p {
+  width: 100%;
+  font-size: 13px;
+  margin: 0;
+}
+
+.header_order_btn {
+  width: 15%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header_order_btn button {
+  width: 120px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  background-color: #047de5;
+  border: 1px solid rgb(219, 219, 219);
+  font-size: 13px;
+  bottom: 30px;
+}
+
+.header_order_btn button:hover {
+  background-color: #34a0ff;
+
+}
+
+.header_phone {
+  width: 15%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header_phone p {
+  vertical-align: middle;
+  margin: 0;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 1199px) {
+  .header {
+    margin-bottom: 30px;
+
+  }
+
+  .icon_menu {
+    display:flex;
+  }
+  .header_mode {
+    display: none;
+  }
+
+  .header_order_btn {
+    display: none;
+  }
+  .menu {
+    display: none
+  }
+
+  .header .header_info p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 979px)  {
+  .header_info p {
+    font-size: 10px;
+  }
+  .header_logo {
+    display: none;
+ }
+  .header_logo_mobile {
+     display: flex;
+     width: 50px;
+  }
+  .header_logo_mobile img {
+    width: 100%;
+  }
+
+} 
+
+
+@media screen and (max-width: 772px)  {
+  .header_info {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.catalog {
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 100%; 
+    display:flex;
+    border-top: solid 1px rgb(173, 173, 173);
+}
+ 
+.container_cond_list {
+    width: 100%;
+}
+
+.container_cond_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 979px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container_cond_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
