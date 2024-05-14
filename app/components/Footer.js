@@ -25,12 +25,12 @@ const Footer = () => (
       </div>
       <div className={styles.contacts}>
           <div className={styles.head}>Контакты</div>
-          <p>+375296290022</p>
-          <p>info@mail.ru</p>
+          <a href="tel:+39458030945">+39458030945</a>
+          <a href="mailto:info@mail.ru" >info@mail.ru</a>
           <p>220131, РБ, г. Минск, 4-ый переулок Кольцова 51, оф.715</p>
       </div>
     </div>
-  </footer>
+  </footer> 
 );
 
 export default Footer;

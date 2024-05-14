@@ -18,8 +18,15 @@
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-
+ 
 .objects_item img {
     width: 100%;
+}
+
+@media screen and (max-width: 979px) {
+    .objects_item {
+        width: 100%;
+    }
+    
 }
 

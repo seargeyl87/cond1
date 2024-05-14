@@ -5,7 +5,7 @@ import cond from "../../img/cond1.jpeg";
 
 const Objects = () => {
   const [ourObjects, setOurObjects] = useState([
-    { src: "/_next/static/media/condicioner3.ac75354b.jpeg", id: 1 },
+    { src: cond.src, id: 1 },
     { src: "/_next/static/media/condicioner3.ac75354b.jpeg", id: 2 },
     { src: "/_next/static/media/condicioner3.ac75354b.jpeg", id: 3 },
     { src: "/_next/static/media/condicioner3.ac75354b.jpeg", id: 4 },

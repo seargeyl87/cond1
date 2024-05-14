@@ -1,5 +1,11 @@
 .about {
     width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.about_box {
+
 }
 
 .about_into {
@@ -20,5 +26,5 @@
 .about_pict img {
     width: 100%;
     min-height: 200px;
-}
+} 
 

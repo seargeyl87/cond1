@@ -17,12 +17,12 @@ function Navbar() {
   const changeModalThanks = () => {
     // сделать условия if(введен номер и запрос отправлен, затем выполняются 2 данные функции) else надпись - введите корректно номер телефона
     setModalActive(false);
-    setModalThanksActive(true);
+    setModalThanksActive(true); 
   };
 
   return (
     <div className={styles.navbar}>
-      <div className={styles.header}>
+      <div className={styles.header}> 
         <div className={styles.header_logo}>
         <Link href="/"><img src={logo.src} /></Link>
         </div>
@@ -35,14 +35,14 @@ function Navbar() {
         <div className={styles.header_mode}>
           <p>Режим работы</p>
           <p>Пн-Пт: с 9:00 до 18:00</p>
-          <p>Сб-Вс: с 10:00 до 18:00</p>
+          <p>Сб-Вс: с 10:00 до 18:00</p> 
         </div>
         <div className={styles.header_order_btn}>
           <button onClick={() => setModalActive(true)}>заказать звонок</button>
         </div>
         <div className={styles.header_phone}>
-          <p>+39458030945</p>
-          <p>+39458030945</p>
+          <a href="tel:+39458030945" className="phone">+39458030945</a>
+          <a href="tel:+39458030343" className="phone">+39458030343</a>
         </div>
         {mobileMenuActive ? (
           <div

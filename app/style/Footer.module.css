@@ -42,7 +42,16 @@
   font-size: 14px;
 }
 
+.contacts a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+
+}
+
 .info {
+  margin-top: 0;
   font-size: 12px;
 }
 
@@ -67,17 +76,17 @@
   }
 
   .requisites {
-    width: 60%;
+    width: 80%;
   }
 
   .articles {
-    width: 60%;
+    width: 80%;
     margin-top: 30px;
     padding-left: 0px;
-}
+  }
 
   .contacts {
-    width: 60%;
+    width: 80%;
     margin-top: 30px;
   }
 }

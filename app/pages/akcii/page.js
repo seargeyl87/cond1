@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "../../style/Akcii.module.css";
 import condicioner1 from "../../img/condicioner1.jpeg";
-import Button from "../../components/Button";
+import Button from "../../components/Button"; 
 import Modal from "../../components/Modal";
 import ModalThanks from "../../components/ModalThanks";
 
@@ -23,6 +23,7 @@ const Akcii = () => {
         <h1>Акции</h1>
         <div className={styles.akcii_blocks}>
           <div className={styles.akcii_item}>
+
             <div className={styles.akcii_item_foto}>
               <img src={condicioner1.src} />
             </div>
@@ -34,6 +35,7 @@ const Akcii = () => {
                 <Button setModalActive={setModalActive}>Оставить заявку</Button>
               </div>
             </div>
+            
           </div>
 
           <div className={styles.akcii_item}>

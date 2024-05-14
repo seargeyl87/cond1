@@ -13,7 +13,7 @@ function Stati() {
           <div className={styles.stati_item}>
             <div className={styles.stati_item_foto}> 
               <Link href="/pages/stati/stati-item">
-                <img src={condicioner1.src} />
+                <img src={condicioner1.src} /> 
               </Link>
             </div>
             <div className={styles.stati_item_txt}>

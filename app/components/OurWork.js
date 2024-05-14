@@ -16,7 +16,7 @@ function OurWork() {
         </div> 
         <div className={styles.foto_list}>
           <div className={styles.foto_item}>
-            <img src={condicioner1.src} />
+            <img src={condicioner1.src} /> 
           </div>
           <div className={styles.foto_item}>
             <img src={condicioner2.src} />
@@ -28,10 +28,10 @@ function OurWork() {
             <img src={condicioner4.src} />
           </div>
           <div className={styles.foto_item}>
-            <img src={condicioner5.src} />
+            <img src={condicioner6.src} />
           </div>
           <div className={styles.foto_item}>
-            <img src={condicioner6.src} />
+            <img src={condicioner5.src} />
           </div>
         </div>
         <div className={styles.btn}>

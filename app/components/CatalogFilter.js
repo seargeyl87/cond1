@@ -8,7 +8,7 @@ function CatalogFilter({
   changeChooseType,
   changeMinPrice,
   changeMaxPrice,
-  changeChooseArea,
+  changeChooseArea, 
   changeChooseInvertor,
 }) {
   const [producerList, setProducerList] = useState([
@@ -149,7 +149,7 @@ function CatalogFilter({
           <div>Инверторная технология</div>
           <div className={styles.filter_checkbox_list}>
             {invertorFilter.map((item) => (
-              <div className={styles.filter_checkbox}>
+              <div className={styles.filter_checkbox} key={item.id}>
                 <input
                   type="checkbox"
                   checked={chooseInvertor == item.id}

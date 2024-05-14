@@ -9,14 +9,14 @@ const Contacts = () => {
         <div className={styles.contacts_info}>
 
           <div className={styles.contacts_phones}>
-            <h2>Наши телефоны</h2>
+            <h2>Наши телефоны</h2> 
             <div className={styles.phone}>
               <div className={styles.logo_phone}></div>
-              <p>+375291492879</p>
+              <a href="tel:+39458030945">+39458030945</a>
             </div>
             <div className={styles.phone}>
               <div className={styles.logo_phone}></div>
-              <p>+375291492879</p>
+              <a href="tel:+39458032245">+39458220945</a>
             </div>
           </div>
 
@@ -24,7 +24,7 @@ const Contacts = () => {
             <h2>E-mail:</h2>
             <div className={styles.email}>
               <div className={styles.logo_email}></div>
-              <p>swiehfi@mail.ru</p>
+              <a href="mailto:info@mail.ru" >info@mail.ru</a>
             </div>
           </div>
 

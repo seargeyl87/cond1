@@ -1,26 +1,24 @@
 .catalog_cond_list_item {
     width: 280px;
-    height: 520px;
     display: flex; 
     flex-direction: column;
     margin-right: 20px;
     border: rgb(179, 179, 179) solid 1px;
     border-radius: 10px;
     padding-bottom: 20px;
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 20px; 
   }
 
 
   .catalog_cond_list_item_picture {
     width: 100%;
-    height: 230px; 
     background-size: 100%;
   }
-  
+   
   .catalog_cond_list_item_picture img {
     width: 100%;
-    height: 230px
-
+    height: 260px;
+    object-fit: contain;
   }
 
   .catalog_cond_list_item_description {
@@ -44,7 +42,7 @@
     margin: 0;
   }
 
-  
+   
   .catalog_cond_list_item_head {
     padding: 0 20px 0 20px;
     box-sizing: border-box;
@@ -52,6 +50,10 @@
    
   .catalog_cond_list_item_head h4 {
     margin-bottom: 10px;
+  }
+
+  .catalog_cond_list_item_power_heat {
+    margin-top: 12px;
   }
   
   .catalog_cond_list_item_buttons {
@@ -63,10 +65,24 @@
   
 .btn {
   padding: 5px 10px 5px 10px;
+  font-size: 20px;
 }
-
+ 
 @media screen and (max-width: 979px) {
   .catalog_cond_list_item {
-    width: 60%
+    width: 80%;
+    height: auto;
+  }
+
+
+  .catalog_cond_list_item_picture img {
+    height: auto;
   }
 } 
+
+@media screen and (max-width: 767px) {
+  .catalog_cond_list_item_picture {
+    height: auto;
+  }
+
+}

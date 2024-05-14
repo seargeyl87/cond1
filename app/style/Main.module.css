@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   background-image: url("../img/conditioner.jpeg");
-  background-size: 100%;
+  background-size: 102%;
 }
 
 .content {
@@ -34,8 +34,11 @@
 .icon {
   width: 25px;
   height: 25px;
-  background-image: url("../img/check.png");
-  background-size: 100%;
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
 }
 
 .info {
@@ -56,6 +59,12 @@
 }
 
 @media screen and (max-width: 1199px) {
+
+  .main {
+    width: 100%;
+    background-size: auto;
+  }
+
   .main_head {
     font-size: 12px;
   }
@@ -74,6 +83,10 @@
   .consult_txt {
     font-size: 20px;
     width: 100%;
+  }
+
+  .main {
+    object-fit:cover
   }
 
 }

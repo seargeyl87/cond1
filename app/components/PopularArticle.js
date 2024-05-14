@@ -5,7 +5,7 @@ function PopularArticle() {
         <div className={styles.popular_articles}>
         <div className={styles.popular_articles_head}> 
           <h2>Популярные статьи</h2>
-        </div>
+        </div> 
         <div className={styles.popular_articles_list}>
           <div className={styles.popular_articles_list_item}>
             <div className={styles.popular_articles_list_item_picture1}></div>

@@ -18,12 +18,9 @@ function CatalogItem(cond) {
 
   return (
     <div className={styles.catalog_cond_list_item}>
-      <div
-        className={styles.catalog_cond_list_item_picture}
-        style={{
-          backgroundImage: `url(${cond.cond.src})`,
-        }}
-      ></div>
+      <div className={styles.catalog_cond_list_item_picture}>
+        <img src={`${cond.cond.src}`} />
+      </div>
 
       <div className={styles.catalog_cond_list_item_head}>
         <h4>{cond.cond.name}</h4>

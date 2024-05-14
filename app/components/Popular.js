@@ -1,9 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import styles from "../style/Popular.module.css";
+import styles from "../style/Popular.module.css"; 
 import CatalogItem from "./CatalogItem";
 import Link from "next/link"; 
+import gree_pular_on_off from "../img/gree_pular_on_off.jpeg";
+import gree_pular from "../img/gree_pular.jpeg";
+import gree_bora from "../img/gree_bora.jpeg";
+
 
 
 
@@ -14,7 +18,7 @@ function Popular() {
     {
       name: "Сплит-система gree",
       price: 2000,
-      src: "/_next/static/media/energolux.4173834b.jpeg",
+      src: gree_pular_on_off.src,
       area: 25,
       powerCold: 2.5,
       powerHeat: 2.5,
@@ -24,7 +28,7 @@ function Popular() {
     {
       name: "Сплит-система gree",
       price: 2300,
-      src: "/_next/static/media/energolux.4173834b.jpeg",
+      src: gree_pular.src,
       area: 23,
       powerCold: 2.5,
       powerHeat: 2.8,
@@ -34,7 +38,7 @@ function Popular() {
     {
       name: "Сплит-система gree",
       price: 2300,
-      src: "./_next/static/media/energolux.4173834b.jpeg",
+      src: gree_bora.src,
       area: 23,
       powerCold: 2.5,
       powerHeat: 2.8,
@@ -44,7 +48,7 @@ function Popular() {
     {
       name: "Сплит-система gree",
       price: 2300,
-      src: "/_next/static/media/energolux.4173834b.jpeg",
+      src: gree_bora.src,
       area: 23,
       powerCold: 2.5,
       powerHeat: 2.8,
@@ -56,7 +60,7 @@ function Popular() {
   return (
     <div className={styles.popular}>
       <div className={styles.popular_head}>
-        <h2>Популярные модели</h2> 
+        <h2>Популярные модели</h2>  
       </div>
       <div className={styles.popular_blocks}>
         {/* <div className={styles.popular_power}>

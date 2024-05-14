@@ -77,11 +77,12 @@
   }
 
   .questions_foto {
-    height: 350px;
+    width: 80%;
+    height: 550px;
   }
 
   .questions_form_info {
-    width: 60%;
+    width: 80%;
   }
 
   .questions_form {
@@ -90,14 +91,14 @@
   }
 
   .questions_btn {
-    width: 60%;
+    width: 80%;
   }
   .questions_form input {
-    width: 60%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 767px) {
   .questions_foto {
     height: 250px;
   }

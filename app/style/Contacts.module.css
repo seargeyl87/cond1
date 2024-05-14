@@ -5,7 +5,7 @@
     margin-right: auto;
     padding-bottom: 30px;
 }
-
+ 
 .container {
     width: 100%;
     display: flex;
@@ -25,4 +25,19 @@
 
 .contacts_phones, .contacts_email, .time p {
     font-size: 20px;
+} 
+
+.contacts_phones .phone a, .contacts_email a {
+    text-decoration: none;
+    color: black;
+} 
+
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .contacts_info, .contacts_img {
+        width: 100%;
+    }
 }

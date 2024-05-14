@@ -1,55 +1,80 @@
 .akcii {
-    width: 100%;
+  width: 100%;
 }
 
 .akcii_into {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px 0 100px 0;
-    box-sizing: border-box;
-
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0 100px 0;
+  box-sizing: border-box;
 }
- 
+
 .akcii_blocks {
-    width: 100%; 
+  width: 100%;
 }
 
 .akcii .akcii_into .akcii_blocks .akcii_item {
-    display: flex;
-    padding: 50px 50px 50px 0;
-    width: 100%;
-    box-sizing: border-box;
-    border-bottom: solid 1px rgb(206, 204, 204);
+  display: flex;
+  padding: 50px 50px 50px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: solid 1px rgb(206, 204, 204);
 }
 
 .akcii_item_foto {
-    width: 300px;
+  width: 300px;
 }
 
 .akcii_item_foto img {
-    width: 300px;
+  width: 300px;
 }
 
 .akcii_item_txt {
-    width: 70%;
-    padding-left: 40px;
-
+  width: 70%;
+  padding-left: 40px;
 }
 
 .akcii_item_txt h2 {
-    margin-top: 0;
-    color: black;
+  margin-top: 0;
+  color: black;
 }
 
 .akcii_item_txt a {
-    text-decoration: none;
-    color:rgb(155, 155, 155);
+  text-decoration: none;
+  color: rgb(155, 155, 155);
 }
 
 .akcii_item_txt a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+@media screen and (max-width: 772px) {
+  .akcii_into h1 {
+    text-align: center;
+  }
+  .akcii_into {
+    padding: 30px;
+  }
+  .akcii .akcii_into .akcii_blocks .akcii_item {
+    flex-direction: column; 
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 30px;
+  }
 
+  .akcii_item .akcii_item_foto {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
+  .akcii_item .akcii_item_foto img {
+    width: 100%;
+  }
+  
+  .akcii_item .akcii_item_txt {
+    margin-top: 20px;
+    padding-left: 0px;
+    width: 100%;
+  }
+}

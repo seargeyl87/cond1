@@ -2,7 +2,7 @@ import styles from "../../style/About.module.css";
 import pict_about from "../../img/pict_about.jpeg";
 
 
-function About() {
+function About() { 
   return (
     <>
       <div className={styles.about}>
@@ -13,7 +13,7 @@ function About() {
           <div className={styles.info}>
             <h4>О нас</h4>
 
-            <div className={styles.about}>
+            <div className={styles.about_short}>
               <div className={styles.about_box}>
                 <p>
                   Мы являемся официальными дилерами ведущих производителей
@@ -21,7 +21,7 @@ function About() {
                 </p>
               </div>
               <div className={styles.about_box}>
-                <p>2210 довольных клиентов за 5 лет работы</p>
+                <p>Более 4000 довольных клиентов за 15 лет работы</p>
               </div>
               <div className={styles.about_box}>
                 <p>
@@ -32,7 +32,7 @@ function About() {
             </div>
 
             <p>
-              Интернет-магазин кондиционеров "Климаконд" открыт всем для
+              Наша компания открыта всем для
               создания хорошего климата в доме. Каждый человек старается обрести
               комфортное состояние и обращается к знатокам за советом -
               установка кондиционеров сплит-систем. Совет нашей компании поможет

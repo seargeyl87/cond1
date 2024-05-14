@@ -1,11 +1,11 @@
 import styles from "../../../style/StatiContent.module.css";
 import cond1 from "../../../img/cond1.jpeg";
 import cond2 from "../../../img/cond2.jpeg";
+ 
 
-
-function StatiContent() {
+function StatiContent() { 
   return (
-    <>
+    <> 
       <div className={styles.stati_item}>
         <div className={styles.stati_item_content}>
           <h1>Лучшие мобильные кондиционеры</h1>

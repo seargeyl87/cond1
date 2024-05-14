@@ -5,6 +5,7 @@ import styles from "../style/Main.module.css";
 import Modal from "./Modal";
 import ModalThanks from "./ModalThanks";
 import Button from "../components/Button";
+import check from "../img/check.png";
 
 function Main() {
   const [modalActive, setModalActive] = useState(false);
@@ -13,7 +14,7 @@ function Main() {
 // const handleModalActive = () => { 
 //   setModalActive(true) 
 // }
-
+ 
 
   const changeModalThanks = () => {
                                 // сделать условия if(введен номер и запрос отправлен, затем выполняются 2 данные функции) else надпись - введите корректно номер телефона
@@ -34,19 +35,25 @@ function Main() {
           </div>
           <div className={styles.benefits}>
             <div className={styles.benefits_item}>
-              <div className={styles.icon}></div>
+              <div className={styles.icon}>
+                <img src={check.src}/>
+              </div>
               <div className={styles.info}>
                 Бесплатный выезд специалиста на замер
               </div>
             </div>
             <div className={styles.benefits_item}>
-              <div className={styles.icon}></div>
+            <div className={styles.icon}>
+                <img src={check.src}/>
+              </div>
               <div className={styles.info}>
                 Подберем кондиционер и выполним установку любой сложности
               </div>
             </div>
             <div className={styles.benefits_item}> 
-              <div className={styles.icon}></div>
+            <div className={styles.icon}>
+                <img src={check.src}/>
+              </div>
               <div className={styles.info}>
                 Гарантия на оборудование и монтаж до 5 лет
               </div>
@@ -57,7 +64,7 @@ function Main() {
               Хотите получить консультацию? Оставьте заявку и мы вам перезвоним
               в ближайшее время
             </div>
-            <Button setModalActive={setModalActive}>Получить консультацию Button</Button>
+            <Button setModalActive={setModalActive}>Получить консультацию</Button>
           </div>
         </div>
       </div>
